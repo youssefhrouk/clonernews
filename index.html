@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hacker News</title>
+    <link rel="stylesheet" href="./static/style.css">
+</head>
+
+<body>
+    <h1>Hacker News</h1>
+    <div class="titles">
+        <h2>News</h2>
+        <h2>Comments</h2>
+    </div>
+    <div class="all-of-all">
+        <div class="all-posts">
+            <div class="post">
+                <!-- <h3 class="user">ilyass</h3>
+                <h2 class="title">title of post</h2>
+                <h4 class="type">story</h4>
+                <p class="story-details">
+                    | <span class="id">1000</span>
+                    | <span class="time">1 hour ago</span>
+                    | <span class="comments">50 comments</span>
+                </p> -->
+            </div>
+        </div>
+        <div class="all-comments">
+            <div class="post">
+                <!-- <h3 class="user">ilyass</h3>
+                <h4 class="text">story</h4>
+                <p class="comment-details">
+                    | <span class="id">1000</span>
+                    | <span class="time">1 hour ago</span>
+                </p> -->
+            </div>
+        </div>
+    </div>
+
+    <script type="module">
+        import { loadItems } from './src/script.js'
+        loadItems(10)
+    </script>
+</body>
+
+</html>
